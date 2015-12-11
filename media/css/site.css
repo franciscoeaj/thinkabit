@@ -1,0 +1,897 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.centered {
+	margin: 0 auto;
+	text-align: center;
+}
+
+body {
+	font-size: 10px;
+	font-family: "proxima-nova";
+	font-weight: 300;
+}
+
+#wrapper {
+	font-size: 1.4em;
+}
+
+#overlay {
+	display: none;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.65);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+	cursor: pointer;
+}
+
+#responsive-nav {
+	font-size: 2em;
+	font-weight: 200;
+	text-transform: uppercase;
+	text-align: center;
+	position: fixed;
+	background-color: #f0f0f0;
+	min-width: 12.5em;
+	max-width: 14em;
+	margin-top: 6em;
+	width: 36%;
+	z-index: 5;
+	padding: 0 0 0.5em 0;
+	left: -26.2em;
+}
+
+#responsive-user-options {
+	margin-bottom: 0.35em;
+}
+
+#responsive-user-options a {
+	color: #777;
+	text-decoration: none;
+}
+
+#responsive-user-options .register {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+	margin-left: 0.65em;
+	color: #fff;
+}
+
+#responsive-nav ul {
+	list-style: none;
+}
+
+#responsive-nav ul li {
+	background-color: rgba(0, 0, 0, 0.05);
+	margin: 1px 0;
+	padding: 0.4em 0;
+}
+
+#responsive-nav ul li:first-child {
+	margin-top: 0 !important;
+}
+
+#responsive-nav ul li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#responsive-nav ul li:active {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+
+#responsive-nav ul li a {
+	color: #777;
+}
+
+#responsive-nav ul li a:hover {
+	text-decoration: none;
+}
+
+#responsive-nav-trigger {
+	display: none;
+	background-color: #181818;
+	margin-top: 1.5em;
+	font-size: 22px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.45);
+	position: fixed;
+	bottom: 0.5em;
+	right: 0.5em;
+	border: none;
+	width: 2.5em;
+	height: 2.5em;
+	color: #fff;
+	z-index: 3;
+	outline: 0;
+}
+
+header {
+	font-weight: 100;
+	background-color: #007291;
+	height: 33em;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.35);
+	color: #FFF;
+}
+
+header a {
+	color: #fff;
+}
+
+header a:focus, header a:visited {
+	color: #fff;
+}
+
+header a:hover, header nav a.active {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+header nav a {
+	margin: 0 5px;
+}
+
+header nav a:first-child {
+	margin-left: 0 !important;
+}
+
+header nav a:last-child {
+	margin-right: 0 !important;
+}
+
+#index-header {
+	background-color: #00617B;
+	height: 330px;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#page-header, #subpage-header {
+	background-color: #00617B;
+	min-height: 120px;
+	height: auto;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+#subpage-header {
+	min-height: 157px;
+	padding-bottom: 0 !important;
+}
+
+#mini-header {
+	text-transform: uppercase;
+	background-color: rgba(0, 0, 0, 0.15);
+	height: 60px;
+	width: 100%;
+	color: #fff;
+}
+
+#mini-header #header-nav, #mini-header #user-options {
+	margin-top: 0.9em !important;
+}
+
+#mini-header #header-nav {
+	text-align: left;
+}
+
+#header-nav {
+	font-size: 18px;
+	margin-top: 2.4em;
+	text-align: center;
+}
+
+#subpage-nav {
+	background-color: #00495C;
+	height: 57px;
+	margin-top: 30px;
+	text-align: center;
+	border-top: 1px solid #003745;
+}
+
+#subpage-nav a {
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 16px 94px;
+	border-right: 1px solid #003745;
+}
+
+#subpage-nav a:last-child {
+	border-right: 0 !important;
+}
+
+#subpage-nav a:hover {
+	background-color: #003745;
+}
+
+#user-options ul, #home-nav ul, #main-user-options ul {
+	list-style: none;
+}
+
+#user-options ul li, #main-user-options ul li {
+	float: left;
+	margin: 0 5px;
+}
+
+.register {
+	font-size: 16px;
+	background-color: rgba(52, 206, 0, 0.75);
+	padding: 0.5em;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.register:hover {
+	background-color: rgba(52, 206, 0, 0.9);
+	border-bottom: none !important;
+}
+
+.register:active {
+	background-color: rgba(52, 206, 0, 1);
+}
+
+#header-nav ul li a:hover, #home-nav ul li a:hover{
+	border-bottom: 1px dotted #fff;
+}
+
+#logo {
+	display: block;
+	background: url("../images/logo.png") no-repeat;
+	background-size: 219px 50px;
+	width: 219px;
+	height: 50px;
+	text-indent: -9999px;
+	margin: 0 auto;
+	margin-top: 1.7em;
+}
+
+#index-header #logo {
+	background-size: 240px 55px;
+	width: 240px;
+	height: 55px;
+}
+
+#index-header h2 {
+	margin-top: 2em;
+}
+
+#index-header h2, #index-header h3 {
+	text-align: center;
+}
+
+#user-options {
+	margin-top: 2.4em;
+}
+
+section {
+	padding: 30px 0;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.45);
+}
+
+section:last-child {
+	border-bottom: 0 !important;
+}
+
+section:nth-child(even) {
+	background-color: #107296;
+	color: #fff !important;
+}
+
+section h2, section h3, section h4, section p {
+	text-align: center;
+}
+
+.section-title {
+	font-size: 28px;
+	margin-top: 0.15em;
+	margin-bottom: 0 !important;
+}
+
+.section-description {
+	color: #666;
+	font-size: 18px;
+	max-width: 40em;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	margin-bottom: 1.75em;
+
+}
+
+.section-subtitle {
+	font-weight: 350;
+	font-size: 24px;
+	max-width: 40em;
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+section:nth-child(even) .section-description {
+	color: #fff;
+}
+
+section:nth-child(even) .section-description:nth-child(even) {
+	color: #fff;
+}
+
+section .socialicon {
+	float: left;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, 0.85);
+	margin-bottom: 0.5em;
+}
+
+#first-section {
+	background: url("../images/section1_bg.png") repeat;
+	color: #333333;
+}
+
+.circular {
+	margin: 0 auto;
+	background-color: #fff;
+	width: 189px;
+	height: 189px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.team-page .circular {
+	box-shadow: 0 0 0 3px #107296;
+}
+
+.team-page .team-member {
+	width: 179px;
+	height: 179px;
+	border-radius: 50%;
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+
+#emerson {
+	background: url("../images/team/emerson.png") no-repeat;
+	background-size: contain;
+}
+
+#francisco {
+	background: url("../images/team/francisco.png") no-repeat;
+	background-size: contain;
+}
+
+#joao {
+	background: url("../images/team/joao.png") no-repeat;
+	background-size: contain;
+}
+
+.duvida {
+	padding: 0 30px;
+}
+
+footer {
+	background-color: #333;
+	border-top: 3px solid #212121;
+	padding: 20px 0;
+	color: #fff;
+	height: 100%;
+	position: relative;
+}
+
+#footer-logo {
+	width: 53px;
+	height: 62px;
+	background: url("../images/b_transparent.png") no-repeat;
+	background-size: 53px 62px;
+	vertical-align: center;
+	margin: auto;
+}
+
+footer nav {
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer nav a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 0 10px;
+}
+
+footer nav a:hover {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 1px dotted #fff;
+}
+
+footer nav a:first-child {
+	margin-left: 0 !important;
+}
+
+footer nav a:last-child {
+	margin-right: 0 !important;
+}
+
+#social-icons {
+	margin: 0 auto;
+	width: 120px;
+}
+
+#social-icons a {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999px;
+	margin: 0 3px;
+}
+
+#facebook-icon {
+	background: url("../images/icon_facebook.png");
+}
+
+#twitter-icon {
+	background: url("../images/icon_twitter.png");
+}
+
+#instagram-icon {
+	background: url("../images/icon_instagram.png");
+}
+
+#copyright {
+	color: #A3A3A3;
+	font-size: 16px;
+	text-align: center;
+}
+
+/** Pages CSS **/
+#main-contact button, #main-contact input, #main-contact textarea {
+	width: 100%;
+}
+
+#main-contact textarea {
+	height: 5.29em;
+}
+
+#main-contact input, #main-contact textarea, #main-contact button {
+	display: inline-block;
+	border: none;
+	margin: 0.35em 0;
+	padding: 0.35em;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+#main-contact input[name="phone"], #main-contact input[name="location"] {
+	width: 48.4%;
+}
+
+#main-contact input[name="phone"] {
+	margin-right: 0.35em;
+}
+
+#main-contact button {
+	font-size: 16px;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5em;
+	margin: 0.4em 0;
+}
+
+.contact-page section span {
+	float: left;
+	margin: 0.45em 0 0 0.65em;
+	width: 18em;
+	display: block;
+}
+
+.row .socialmedia {
+	width: 21.15em;
+	margin: 0 auto;
+}
+
+/** Services CSS **/
+
+#visual-identity .circular {
+	background-color: #9F9AC0;
+	padding-top: 39px;
+}
+
+#web-sites .circular {
+	background-color: #65517C;
+	padding-top: 49px;
+	box-shadow: 0 5px 0 0 rgba(101, 81, 124, 0.25);
+}
+
+#web-stores .circular {
+	background-color: #e0e0e0;
+	padding-top: 33px;
+}
+
+#responsivity .circular {
+	background-color: #736E79;
+	padding-top: 44px;
+	box-shadow: 0 5px 0 0 rgba(115, 110, 121, 0.25);
+}
+
+#web-applications .circular {
+	background-color: #7D959B;
+	padding-top: 40px;
+	box-shadow: 0 5px 0 0 rgba(125, 149, 155, 0.25);
+}
+
+#content-management .circular {
+	background-color: #5A77DC;
+	padding-top: 34px;
+	box-shadow: 0 5px 0 0 rgba(90, 119, 220, 0.25);
+}
+
+#email-marketing .circular {
+	background-color: #A4A29B;
+	padding-top: 56px;
+}
+
+#printed-matter .circular {
+	background-color: #585752;
+	padding-top: 36px;
+}
+
+
+#visual-identity .service-image, #web-sites .service-image, #web-stores .service-image, #responsivity .service-image, #web-applications .service-image, #content-management .service-image, #email-marketing .service-image, #printed-matter .service-image {
+	background: url("../images/services-assets.png");
+	margin: 0 auto;
+}
+
+#visual-identity .service-image {
+	width: 108px;
+	height: 110px;
+}
+
+#web-sites .service-image {
+	background-position: 0 -110px;
+	width: 108px;
+	height: 92px;
+}
+
+#web-stores .service-image {
+	background-position: 0 -202px;
+	width: 108px;
+	height: 113px;
+}
+
+#responsivity .service-image {
+	background-position: 0 -315px;
+	width: 108px;
+	height: 103px;
+}
+
+#web-applications .service-image {
+	background-position: 0 -418px;
+	width: 109px;
+	height: 111px;
+}
+
+#content-management .service-image {
+	background-position: 0 -529px;
+	width: 108px;
+	height: 108px;
+}
+
+#email-marketing .service-image {
+	background-position: 0 -637px;
+	width: 108px;
+	height: 80px;
+}
+
+#printed-matter .service-image {
+	background-position: 0 -717px;
+	width: 108px;
+	height: 110px;
+}
+
+@media (max-width: 960px) {
+	#responsive-nav-trigger {
+		display: inline-block;
+	}
+
+	#header-nav {
+		display: none;
+	}
+}
+
+@media (max-width: 1199px) {
+	/** Services CSS - Tablet **/
+
+	#visual-identity .circular {
+		padding-top: 28px;
+	}
+
+	#web-sites .circular {
+		padding-top: 36px;
+	}
+
+	#web-stores .circular {
+		padding-top: 28px;
+	}
+
+	#responsivity .circular {
+		padding-top: 36px;
+	}
+
+	#web-applications .circular {
+		padding-top: 30px;
+	}
+
+	#content-management .circular {
+		padding-top: 26px;
+	}
+
+	#email-marketing .circular {
+		padding-top: 42px;
+	}
+
+	#printed-matter .circular {
+		padding-top: 28px;
+	}
+
+	#visual-identity .service-image, #web-sites .service-image, #web-stores .service-image, #responsivity .service-image, #web-applications .service-image, #content-management .service-image, #email-marketing .service-image, #printed-matter .service-image {
+		background-size: 85px 645px;
+	}
+
+	#visual-identity .service-image {
+		width: 85px;
+		height: 86px;
+	}
+
+	#web-sites .service-image {
+		background-position: 0 -86px;
+		width: 85px;
+		height: 71px;
+	}
+
+	#web-stores .service-image {
+		background-position: 0 -158px;
+		width: 85px;
+		height: 88px;
+	}
+
+	#responsivity .service-image {
+		background-position: 0 -246px;
+		width: 85px;
+		height: 81px;
+	}
+
+	#web-applications .service-image {
+		background-position: 0 -327px;
+		width: 85px;
+		height: 85px;
+	}
+
+	#content-management .service-image {
+		background-position: 0 -412px;
+		width: 85px;
+		height: 84px;
+	}
+
+	#email-marketing .service-image {
+		background-position: 0 -496px;
+		width: 85px;
+		height: 63px;
+	}
+
+	#printed-matter .service-image {
+		background-position: 0 -559px;
+		width: 85px;
+		height: 86px;
+	}
+
+	#responsive-nav-trigger {
+		display: inline-block;
+	}
+
+	#header-nav {
+		display: none;
+	}
+
+	#index-header {
+		padding-top: 1.5em;
+	}
+
+	#mini-header {
+		display: none;
+	}
+
+	#subpage-header {
+		height: 227px;
+	}
+
+	#subpage-nav {
+		height: 114px;
+	}
+
+	#subpage-nav a {
+		width: 50%;
+	}
+
+	#subpage-nav a:nth-child(1), #subpage-nav a:nth-child(2) {
+		border-bottom: 1px solid #003745;
+	}
+
+	#user-options {
+		display: none;
+	}
+
+	.circular {
+		margin: 0 auto;
+		background-color: #fff;
+		width: 140px;
+		height: 140px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+	}
+
+	.team-page .team-member {
+		width: 132px;
+		height: 132px;
+		top: 4px;
+		left: 4px;
+	}
+
+	.feature-meta {
+		margin: 1.2em 0;
+	}
+}
+
+@media (max-width: 767px) {
+	/** Services CSS - Phone **/
+
+	#visual-identity .circular {
+		padding-top: 39px;
+	}
+
+	#web-sites .circular {
+		padding-top: 49px;
+	}
+
+	#web-stores .circular {
+		padding-top: 33px;
+	}
+
+	#responsivity .circular {
+		padding-top: 44px;
+	}
+
+	#web-applications .circular {
+		padding-top: 40px;
+	}
+
+	#content-management .circular {
+		padding-top: 34px;
+	}
+
+	#email-marketing .circular {
+		padding-top: 56px;
+	}
+
+	#printed-matter .circular {
+		padding-top: 36px;
+	}
+
+	#visual-identity .service-image, #web-sites .service-image, #web-stores .service-image, #responsivity .service-image, #web-applications .service-image, #content-management .service-image, #email-marketing .service-image, #printed-matter .service-image {
+		background: url("../images/services-assets.png");
+		margin: 0 auto;
+	}
+
+	#visual-identity .service-image {
+		width: 108px;
+		height: 110px;
+	}
+
+	#web-sites .service-image {
+		background-position: 0 -110px;
+		width: 108px;
+		height: 92px;
+	}
+
+	#web-stores .service-image {
+		background-position: 0 -202px;
+		width: 108px;
+		height: 113px;
+	}
+
+	#responsivity .service-image {
+		background-position: 0 -315px;
+		width: 108px;
+		height: 103px;
+	}
+
+	#web-applications .service-image {
+		background-position: 0 -418px;
+		width: 109px;
+		height: 111px;
+	}
+
+	#content-management .service-image {
+		background-position: 0 -529px;
+		width: 108px;
+		height: 108px;
+	}
+
+	#email-marketing .service-image {
+		background-position: 0 -637px;
+		width: 108px;
+		height: 80px;
+	}
+
+	#printed-matter .service-image {
+		background-position: 0 -717px;
+		width: 108px;
+		height: 110px;
+	}
+
+	#index-header {
+		padding-top: 0.5em;
+	}
+
+	#subpage-header {
+		height: 345px;
+	}
+
+	#subpage-nav {
+		height: 232px;
+	}
+
+	#subpage-nav a {
+		width: 100%;
+		border-bottom: 1px solid #003745;
+	}
+
+	#user-options, #main-user-options{
+		display: none;
+	}
+
+	#responsive-user-options {
+		display: block;
+	}
+
+	.circular {
+		margin: 0 auto;
+		background-color: #fff;
+		width: 196px;
+		height: 196px;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+	}
+
+	.team-page .team-member {
+		width: 184px;
+		height: 184px;
+		top: 6px;
+		left: 6px;
+	}
+
+	.feature-meta {
+		margin: 1.35em 0;
+	}
+}
