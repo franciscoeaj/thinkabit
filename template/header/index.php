@@ -50,5 +50,5 @@
 			</div>
 			<div id="logo">Think a bit</div>
 			<h2>Nós pensamos em tudo pra você!</h2>
-			<h3>MAS AINDA NAO CONSEGUI PENSAR NO QUE COLOCAR AQUI QUE IRONIA NAO É MESMO NILCE</h3>
+			<h3>A bit can change everything.</h3>
 		</header>
