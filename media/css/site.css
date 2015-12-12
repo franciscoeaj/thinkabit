@@ -341,6 +341,15 @@ section .socialicon {
 	color: #333333;
 }
 
+#questions h3 {
+	text-align: left !important;
+	font-size: 22px !important;
+}
+
+#questions p {
+	text-align: left !important;
+}
+
 .circular {
 	margin: 0 auto;
 	background-color: #fff;
