@@ -6,10 +6,10 @@
 						</div>
 						<div class="col-lg-4 col-sm-12 col-md-5" style="margin-top: 18px;">
 							<nav>
-								<a href="#">A empresa</a>
-								<a href="#">Serviços</a>
-								<a href="#">Ajuda</a>
-								<a href="#">Contato</a>
+								<a href="./sobre-nos.php">Sobre nós</a>
+								<a href="../servicos.php">Serviços</a>
+								<a href="./sobre-nos.php#questions">Ajuda</a>
+								<a href="../contato.php">Contato</a>
 							</nav>
 						</div>
 						<div class="col-lg-3 col-sm-12 col-md-2" style="margin-top: 12px; text-align: center;">

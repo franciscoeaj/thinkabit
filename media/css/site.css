@@ -350,6 +350,10 @@ section .socialicon {
 	text-align: left !important;
 }
 
+.feature .feature-meta p {
+	text-align: left !important;
+}
+
 .circular {
 	margin: 0 auto;
 	background-color: #fff;
@@ -409,6 +413,12 @@ footer {
 	background-size: 53px 62px;
 	vertical-align: center;
 	margin: auto;
+}
+
+
+footer a:visited {
+	color: #fff;
+	text-decoration: none;
 }
 
 footer nav {

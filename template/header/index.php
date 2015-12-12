@@ -49,6 +49,6 @@
 				</div>
 			</div>
 			<div id="logo">Think a bit</div>
-			<h2>Nós pensamos em tudo pra você!</h2>
-			<h3>A bit can change everything.</h3>
+			<h2>eoq</h2>
+			<h3>Desenvolvimento web de qualidade, com preços incríveis!</h3>
 		</header>
