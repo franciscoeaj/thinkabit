@@ -30,7 +30,7 @@
 			<header id="page-header" class="container-fluid">
 				<div class="row">
 					<div class="col-lg-3 col-md-12">
-						<a href="#" id="logo">Think a bit</a>
+						<a href="../" id="logo">Think a bit</a>
 					</div>
 					<div class="col-lg-6">
 						<nav id="header-nav">
