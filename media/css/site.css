@@ -603,6 +603,54 @@ footer nav a:last-child {
 	height: 92px;
 }
 
+.portfolio .circular {
+	box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.45) !important;
+	padding: 5px;
+	margin-bottom: 15px !important;
+}
+
+.portfolio-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 0 auto;
+}
+
+.portfolio-meta {
+	background-color: rgba(0, 0, 0, 0.45);
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	padding-top: 24%;
+	font-size: 13px;
+	display: none;
+}
+
+.portfolio-meta p:first-child {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.portfolio-meta a {
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 32px;
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	color: #000;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	padding-left: 12px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 /** Services CSS **/
 
 #visual-identity .circular {

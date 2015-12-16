@@ -19,4 +19,12 @@ $(document).ready(function() {
 		$('#responsive-nav').css({'box-shadow': 'none'});
 		$('#responsive-nav').animate({'left': '-' + $(window).width() + 'px'}, 500);
 	});
+
+	$('.portfolio-image').mouseenter(function() {
+		$(this).children().fadeIn();
+	});
+
+	$('.portfolio-meta').mouseleave(function() {
+		$(this).fadeOut();
+	});
 });
