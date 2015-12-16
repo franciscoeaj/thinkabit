@@ -95,8 +95,8 @@
 											<div class="circular">
 												<div class="portfolio-image">
 													<div class="portfolio-meta">
-														<p class="type">Layout</p>
-														<p class="client">Site.com</p>
+														<p class="type">Inna Brasil</p>
+														<p class="client">inna.com.br</p>
 														<a class="more">+</a>
 													</div>
 												</div>
@@ -108,8 +108,8 @@
 											<div class="circular">
 												<div class="portfolio-image">
 													<div class="portfolio-meta">
-														<p class="type">Layout</p>
-														<p class="client">Site.com</p>
+														<p class="type">Empatech</p>
+														<p class="client">empatech.com.br</p>
 														<a class="more">+</a>
 													</div>
 												</div>

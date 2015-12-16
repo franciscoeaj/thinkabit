@@ -763,7 +763,7 @@ footer nav a:last-child {
 	/** Services CSS - Tablet **/
 
 	@media (min-width: 959px) {
-		.index-page .circular {
+		.index-page .circular , .portfolio-page .circular{
 			width: 145px !important;
 			height: 145px !important;
 		}
@@ -1005,7 +1005,7 @@ footer nav a:last-child {
 		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
 	}
 
-	.index-page .circular {
+	.index-page .circular , .portfolio-page .circular {
 		width: 115px;
 		height: 115px;
 	}
@@ -1025,7 +1025,7 @@ footer nav a:last-child {
 @media (max-width: 767px) {
 	/** Services CSS - Phone **/
 
-	.index-page .circular {
+	.index-page .circular , .portfolio-page .circular {
 		width: 180px;
 		height: 180px;
 	}

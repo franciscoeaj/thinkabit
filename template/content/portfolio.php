@@ -1,4 +1,4 @@
-			<div id="content portfolio-page">
+			<div id="content" class="portfolio-page">
 				<section id="first-section">
 					<div class="container-fluid">
 						<div class="section-meta">
@@ -25,8 +25,8 @@
 											<div class="circular">
 												<div class="portfolio-image">
 													<div class="portfolio-meta">
-														<p class="type">Layout</p>
-														<p class="client">Site.com</p>
+														<p class="type">Inna Brasil</p>
+														<p class="client">inna.com.br</p>
 														<a class="more">+</a>
 													</div>
 												</div>
