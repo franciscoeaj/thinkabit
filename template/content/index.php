@@ -8,7 +8,8 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-sm-12 col-xs-12 col-sm-offset-1">
+							<div class="col-sm-12 col-xs-12">
+								<div class="col-sm-1"></div>
 								<div class="col-sm-2 col-xs-12">
 									<div id="money" class="feature service">
 										<div class="circular">
