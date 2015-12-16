@@ -365,6 +365,15 @@ section .socialicon {
 	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
 }
 
+.index-page .feature-meta p {
+	font-size: 14px;
+	text-align: left;
+}
+
+.index-page .circular {
+	width: 180px;
+	height: 180px;
+}
 
 .team-page .circular {
 	box-shadow: 0 0 0 3px #107296;
@@ -480,6 +489,7 @@ footer nav a:last-child {
 }
 
 /** Pages CSS **/
+
 #main-contact button, #main-contact input, #main-contact textarea {
 	width: 100%;
 }
@@ -527,6 +537,72 @@ footer nav a:last-child {
 	margin: 0 auto;
 }
 
+/** Index content CSS **/
+
+#money .circular {
+	background-color: #DAE7BE;
+	box-shadow: 0 5px 0 0 rgba(97, 117, 69, 0.5);
+	padding-top: 40px;
+}
+
+#security .circular {
+	background-color: #E8D28C;
+	box-shadow: 0 5px 0 0 rgba(135, 105, 31, 0.5);
+	padding-top: 32px;
+}
+
+#support .circular {
+	background-color: #EEAFA3;
+	box-shadow: 0 5px 0 0 rgba(143, 45, 32, 0.5);
+	padding-top: 46px;
+}
+
+#clock .circular {
+	background-color: #ADE7DD;
+	box-shadow: 0 5px 0 0 rgba(49, 173, 154, 0.6);
+	padding-top: 38px;
+}
+
+#browser .circular {
+	background-color: #765F97;
+	box-shadow: 0 5px 0 0 rgba(90, 72, 110, 0.65);
+	padding-top: 48px;
+}
+
+#money .feature-image, #security .feature-image, #support .feature-image, #clock .feature-image, #browser .feature-image {
+	background-image: url("../images/bubbles-assets.png");
+	margin: 0 auto;
+}
+
+#money .feature-image {
+	width: 100px;
+	height: 102px;
+}
+
+#security .feature-image {
+	background-position: -100px 0;
+	width: 92px;
+	height: 110px;
+}
+
+#support .feature-image {
+	background-position: -192px 0;
+	width: 108px;
+	height: 98px;
+}
+
+#clock .feature-image {
+	background-position: -300px 0;
+	width: 108px;
+	height: 111px;
+}
+
+#browser .feature-image {
+	background-position: -408px 0;
+	width: 108px;
+	height: 92px;
+}
+
 /** Services CSS **/
 
 #visual-identity .circular {
@@ -539,7 +615,6 @@ footer nav a:last-child {
 	padding-top: 49px;
 	box-shadow: 0 5px 0 0 rgba(101, 81, 124, 0.25);
 }
-
 
 #web-stores .circular {
 	background-color: #e0e0e0;
@@ -573,7 +648,6 @@ footer nav a:last-child {
 	background-color: #585752;
 	padding-top: 36px;
 }
-
 
 #visual-identity .service-image, #web-sites .service-image, #web-stores .service-image, #responsivity .service-image, #web-applications .service-image, #content-management .service-image, #email-marketing .service-image, #printed-matter .service-image {
 	background: url("../images/services-assets.png");
@@ -627,7 +701,7 @@ footer nav a:last-child {
 	height: 110px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 959px) {
 	#responsive-nav-trigger {
 		display: inline-block;
 	}
@@ -639,6 +713,119 @@ footer nav a:last-child {
 
 @media (max-width: 1199px) {
 	/** Services CSS - Tablet **/
+
+	@media (min-width: 959px) {
+		.index-page .circular {
+			width: 145px !important;
+			height: 145px !important;
+		}
+
+		#money .feature-image, #security .feature-image, #support .feature-image, #clock .feature-image, #browser .feature-image {
+			background-size: 389px 84px;
+		}
+
+		#money .circular {
+			padding-top: 38px !important;
+		}
+
+		#money .feature-image {
+			width: 75px;
+			height: 77px;
+		}
+
+		#security .circular {
+			padding-top: 30px !important;
+		}
+
+		#security .feature-image {
+			background-position: -76px 0;
+			width: 68px;
+			height: 84px;
+		}
+
+		#support .circular {
+			padding-top: 42px !important;
+		}
+
+		#support .feature-image {
+			background-position: -145px 0;
+			width: 81px;
+			height: 80px;
+		}
+
+		#clock .circular {
+			padding-top: 34px !important;
+		}
+
+		#clock .feature-image {
+			background-position: -227px 0;
+			width: 80px;
+			height: 84px;
+		}
+
+		#browser .circular {
+			padding-top: 42px !important;
+		}
+
+		#browser .feature-image {
+			background-position: -308px 0;
+			width: 80px;
+			height: 70px;
+		}
+	}
+
+	#money .feature-image, #security .feature-image, #support .feature-image, #clock .feature-image, #browser .feature-image {
+		background-size: 389px 84px;
+	}
+
+	#money .circular {
+		padding-top: 22px;
+	}
+
+	#money .feature-image {
+		width: 75px;
+		height: 77px;
+	}
+
+	#security .circular {
+		padding-top: 12px;
+	}
+
+	#security .feature-image {
+		background-position: -76px 0;
+		width: 68px;
+		height: 84px;
+	}
+
+	#support .circular {
+		padding-top: 24px;
+	}
+
+	#support .feature-image {
+		background-position: -145px 0;
+		width: 81px;
+		height: 80px;
+	}
+
+	#clock .circular {
+		padding-top: 18px;
+	}
+
+	#clock .feature-image {
+		background-position: -227px 0;
+		width: 80px;
+		height: 84px;
+	}
+
+	#browser .circular {
+		padding-top: 24px;
+	}
+
+	#browser .feature-image {
+		background-position: -308px 0;
+		width: 80px;
+		height: 70px;
+	}
 
 	#visual-identity .circular {
 		padding-top: 28px;
@@ -759,7 +946,7 @@ footer nav a:last-child {
 		display: none;
 	}
 
-	.circular {
+	.circular, .index-page .circular {
 		margin: 0 auto;
 		background-color: #fff;
 		width: 140px;
@@ -768,6 +955,11 @@ footer nav a:last-child {
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
+	}
+
+	.index-page .circular {
+		width: 115px;
+		height: 115px;
 	}
 
 	.team-page .team-member {
@@ -784,6 +976,66 @@ footer nav a:last-child {
 
 @media (max-width: 767px) {
 	/** Services CSS - Phone **/
+
+	.index-page .circular {
+		width: 180px;
+		height: 180px;
+	}
+
+	#money .circular {
+		padding-top: 40px;
+	}
+
+	#security .circular {
+		padding-top: 32px;
+	}
+
+	#support .circular {
+		padding-top: 46px;
+	}
+
+	#clock .circular {
+		padding-top: 38px;
+	}
+
+	#browser .circular {
+		padding-top: 48px;
+	}
+
+	#money .feature-image, #security .feature-image, #support .feature-image, #clock .feature-image, #browser .feature-image {
+		background-image: url("../images/bubbles-assets.png");
+		background-size: 516px 111px !important;
+		margin: 0 auto;
+	}
+
+	#money .feature-image {
+		width: 100px;
+		height: 102px;
+	}
+
+	#security .feature-image {
+		background-position: -100px 0;
+		width: 92px;
+		height: 110px;
+	}
+
+	#support .feature-image {
+		background-position: -192px 0;
+		width: 108px;
+		height: 98px;
+	}
+
+	#clock .feature-image {
+		background-position: -300px 0;
+		width: 108px;
+		height: 111px;
+	}
+
+	#browser .feature-image {
+		background-position: -408px 0;
+		width: 108px;
+		height: 92px;
+	}
 
 	#visual-identity .circular {
 		padding-top: 39px;
