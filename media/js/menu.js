@@ -21,10 +21,18 @@ $(document).ready(function() {
 	});
 
 	$('.portfolio-image').mouseenter(function() {
-		$(this).children().fadeIn();
+		var prop_status = $(this).children().css("display");
+
+		if (prop_status != "block") {
+			$(this).children().fadeIn(200);
+		}
 	});
 
 	$('.portfolio-meta').mouseleave(function() {
-		$(this).fadeOut();
+		var prop_status = $(this).css("display");
+
+		if (prop_status == "block") {
+			$(this).fadeOut(200);
+		}
 	});
 });

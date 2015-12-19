@@ -18,7 +18,7 @@ body {
 	font-weight: 300;
 }
 
-#wrapper {
+header, #content, footer {
 	font-size: 1.4em;
 }
 
@@ -351,7 +351,7 @@ section .socialicon {
 }
 
 .feature .feature-meta p {
-	text-align: left !important;
+	text-align: center !important;
 }
 
 .circular {
@@ -365,21 +365,21 @@ section .socialicon {
 	box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
 }
 
-.index-page .feature-meta p {
+.index-content .feature-meta p {
 	font-size: 14px;
 	text-align: left;
 }
 
-.index-page .circular {
+.index-content .circular {
 	width: 180px;
 	height: 180px;
 }
 
-.team-page .circular {
+.team-content .circular {
 	box-shadow: 0 0 0 3px #107296;
 }
 
-.team-page .team-member {
+.team-content .team-member {
 	width: 179px;
 	height: 179px;
 	border-radius: 50%;
@@ -651,6 +651,26 @@ footer nav a:last-child {
 	cursor: pointer;
 }
 
+#p-image-1 {
+	background: url("../images/portfolio/freteagora-cms.png");
+}
+
+#p-image-2 {
+	background: url("../images/portfolio/innabrasil.png") no-repeat;
+	background-size: 90% auto;
+	background-position: center center;
+}
+
+#p-image-3 {
+	background: url("../images/portfolio/empatech.png") no-repeat;
+	background-size: 50% auto;
+	background-position: center center;
+}
+
+#p-image-4 {
+	background: url("../images/portfolio/freteagora-cms.png");
+}
+
 /** Services CSS **/
 
 #visual-identity .circular {
@@ -760,10 +780,15 @@ footer nav a:last-child {
 }
 
 @media (max-width: 1199px) {
-	/** Services CSS - Tablet **/
+	/** Tablet **/
+
+	.index-content .services-content .circular {
+		width: 145px !important;
+		height: 145px !important;
+	}
 
 	@media (min-width: 959px) {
-		.index-page .circular , .portfolio-page .circular{
+		.index-content .circular, .portfolio-content .circular {
 			width: 145px !important;
 			height: 145px !important;
 		}
@@ -994,7 +1019,7 @@ footer nav a:last-child {
 		display: none;
 	}
 
-	.circular, .index-page .circular {
+	.circular, .index-content .circular {
 		margin: 0 auto;
 		background-color: #fff;
 		width: 140px;
@@ -1005,12 +1030,12 @@ footer nav a:last-child {
 		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
 	}
 
-	.index-page .circular , .portfolio-page .circular {
+	.index-content .circular, .portfolio-content .circular {
 		width: 115px;
 		height: 115px;
 	}
 
-	.team-page .team-member {
+	.team-content .team-member {
 		width: 132px;
 		height: 132px;
 		top: 4px;
@@ -1023,11 +1048,25 @@ footer nav a:last-child {
 }
 
 @media (max-width: 767px) {
-	/** Services CSS - Phone **/
+	/** Phone **/
 
-	.index-page .circular , .portfolio-page .circular {
+	.index-content .services-content .circular {
+		width: 180px !important;
+		height: 180px !important;
+	}
+
+	.index-content .circular, .portfolio-content .circular {
 		width: 180px;
 		height: 180px;
+	}
+
+	.index-content .section-meta {
+		padding: 0 30px;
+	}
+
+	.index-content .feature-meta {
+		max-width: 400px;
+		margin: 0 auto;
 	}
 
 	#money .circular {
@@ -1205,7 +1244,7 @@ footer nav a:last-child {
 		box-shadow: 0 5px 0 0 rgba(0, 0, 0, 0.25);
 	}
 
-	.team-page .team-member {
+	.team-content .team-member {
 		width: 184px;
 		height: 184px;
 		top: 6px;

@@ -26,28 +26,27 @@
 			<div class="glyphicon glyphicon-menu-hamburger"></div>
 		</button>
 		<div id="overlay"></div>
-		<div id="wrapper" class="services-page">
-			<header id="page-header" class="container-fluid">
-				<div class="row">
-					<div class="col-lg-3 col-md-12">
-						<a href="./" id="logo">Think a bit</a>
-					</div>
-					<div class="col-lg-6">
-						<nav id="header-nav">
-							<a href="./">Home</a>
-							<a href="./thinkabit/sobre-nos.php">Think a bit</a>
-							<a href="./portfolio.php">Portfolio</a>
-							<a href="./servicos.php">Serviços</a>
-							<a href="./contato.php">Contato</a>
-						</nav>
-					</div>
-					<div class="col-lg-3">
-						<div id="user-options">
-							<ul>
-								<li><a href="#">Registre-se</a></li>
-								<li><a class="register" href="#">Entrar</a></li>
-							</ul>
-						</div>
+		<header id="page-header" class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3 col-md-12">
+					<a href="./" id="logo">Think a bit</a>
+				</div>
+				<div class="col-lg-6">
+					<nav id="header-nav">
+						<a href="./">Home</a>
+						<a href="./thinkabit/sobre-nos.php">Think a bit</a>
+						<a href="./portfolio.php">Portfolio</a>
+						<a href="./servicos.php">Serviços</a>
+						<a href="./contato.php">Contato</a>
+					</nav>
+				</div>
+				<div class="col-lg-3">
+					<div id="user-options">
+						<ul>
+							<li><a href="#">Registre-se</a></li>
+							<li><a class="register" href="#">Entrar</a></li>
+						</ul>
 					</div>
 				</div>
-			</header>
+			</div>
+		</header>
