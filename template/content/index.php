@@ -82,7 +82,7 @@
 												<div class="portfolio-meta">
 													<p class="type" style="margin-top: -10px;">Painel de <br />gerenciamento</p>
 													<p class="client">freteagora.com</p>
-													<a class="more">+</a>
+													<a target="_blank" href="http://www.freteagora.com.br" class="more">+</a>
 												</div>
 											</div>
 										</div>
@@ -94,8 +94,8 @@
 											<div id="p-image-2" class="portfolio-image">
 												<div class="portfolio-meta">
 													<p class="type">Inna Brasil</p>
-													<p class="client">inna.com.br</p>
-													<a class="more">+</a>
+													<p  class="client">inna.com.br</p>
+													<a target="_blank" href="http://www.inna.com.br" class="more">+</a>
 												</div>
 											</div>
 										</div>
@@ -108,7 +108,8 @@
 												<div class="portfolio-meta">
 													<p class="type">Empatech</p>
 													<p class="client">empatech.com.br</p>
-													<a class="more">+</a>
+													<a target="_blank" href="http://www.empatech.com.br" class="more">+</a>
+													
 												</div>
 											</div>
 										</div>
