@@ -52,17 +52,20 @@ header, #content, footer {
 
 #responsive-user-options {
 	margin-bottom: 0.35em;
+	visibility: hidden;
 }
 
 #responsive-user-options a {
 	color: #777;
 	text-decoration: none;
+	visibility: hidden;
 }
 
 #responsive-user-options .register {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
 	margin-left: 0.65em;
 	color: #fff;
+	visibility: hidden;
 }
 
 #responsive-nav ul {
@@ -218,11 +221,13 @@ header nav a:last-child {
 
 #user-options ul, #home-nav ul, #main-user-options ul {
 	list-style: none;
+	visibility: hidden;
 }
 
 #user-options ul li, #main-user-options ul li {
 	float: left;
 	margin: 0 5px;
+	visibility: hidden;
 }
 
 .register {
