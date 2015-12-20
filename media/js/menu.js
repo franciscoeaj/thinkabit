@@ -36,14 +36,19 @@ $(document).ready(function() {
 		}
 	});
 
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-	    if (location.hostname == this.hostname) {
+	// Em tese dá certo, mas dá uma bugada quando muda de página ou atualiza (pois ele desce até a id, depois sobe para pode fazer a rolagem)
+	/*
+	if (location.hash){
+        setTimeout(function(){
+            $('html, body').scrollTop(0);
+            $('html,body').animate({
+       			scrollTop: $(location.hash).offset().top
+   			},1000);
+        }, 0);
+    } */
 
-	    	if(location.pathname.replace(/^\//,'') != this.pathname.replace(/^\//,'')) {
-	    		alert("TAPORA");
-
-	    	}
+	$('a[href*=#]:not([href=#])').click(function() {
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -54,8 +59,7 @@ $(document).ready(function() {
 				return false;
 			}
 			
-	    }
+		}
 
-	  });
 	});
 });
