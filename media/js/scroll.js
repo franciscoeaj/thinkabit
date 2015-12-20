@@ -12,7 +12,7 @@ $(document).ready(function(){
         	if(offY > max) offY = max;			//Se minha destinação for além do ponto máximo de scrolling, minha destinação será o ponto máximo
 
         	var pixels = Math.abs($(window).scrollTop() - offY);			//A quantidade de pixels scrollados (origem - destino)
-        	var MsPorPixels = 50;			//A "velocidade" de scrolling
+        	var MsPorPixels = 40;			//A "velocidade" de scrolling
 
             $('html,body').animate({
        			scrollTop: offY			//Scrolla até o destino
@@ -33,7 +33,7 @@ $(document).ready(function(){
         	if(offY > max) offY = max;
 
 			var pixels = Math.abs($(window).scrollTop() - offY);
-        	var MsPorPixels = 50;
+        	var MsPorPixels = 40;
 
 			if (target.length) {
 				$('html,body').animate({
