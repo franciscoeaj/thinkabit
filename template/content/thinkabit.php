@@ -54,7 +54,7 @@
 					</div>
 				</div>
 			</section>
-			<section id="questions">
+			<section id="questions" class="questions-aux">
 				<div class="container-fluid">
 					<div class="section-meta">
 						<h2 class="section-title">Dúvidas?</h2>

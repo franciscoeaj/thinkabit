@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</section>
-		    <section id="portfolio">
+		    <section id="portfolio" class="portfolio-aux">
 				<div class="container-fluid">
 					<div class="section-meta">
 						<h2 class="section-title">Portfolio</h2>
@@ -133,7 +133,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="services-content" id="services">
+			<section class="services-content services-aux" id="services">
 				<div class="container-fluid">
 					<div class="section-meta">
 						<h2 class="section-title">O que podemos fazer por você?</h2>
