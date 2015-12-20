@@ -47,6 +47,7 @@
 		<script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="//use.typekit.net/hba6tsv.js"></script>
 		<script src="./media/js/menu.js"></script>
+		<script src="./media/js/scroll.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 		<script>

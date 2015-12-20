@@ -35,32 +35,4 @@ $(document).ready(function() {
 			$(this).fadeOut(200);
 		}
 	});
-
-	// Em tese dá certo, mas dá uma bugada quando muda de página ou atualiza (pois ele desce até a id, depois sobe para pode fazer a rolagem)
-	if (location.hash){
-		$(location.hash).removeAttr('id');
-        setTimeout(function(){
-        	$('.' + location.hash.slice(1) + '-aux').attr('id',location.hash.slice(1));
-            $('html,body').animate({
-       			scrollTop: $(location.hash).offset().top
-   			},1000);
-        }, 10);
-
-    }
-
-	$('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
- 
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			if (target.length) {
-				$('html,body').animate({
-				  scrollTop: target.offset().top
-				}, 1000);
-				return false;
-			}
-			
-		}
-
-	});
 });
