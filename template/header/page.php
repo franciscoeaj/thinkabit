@@ -13,8 +13,8 @@
 			<ul>
 				<li><a href="./">Home</a></li>
 				<li><a href="./thinkabit/sobre-nos.php">Think a bit</a></li>
-				<li><a href="./portfolio.php">Portfolio</a></li>
-				<li><a href="./servicos.php">Serviços</a></li>
+				<li><a href="./#portfolio">Portfolio</a></li>
+				<li><a href="./#services">Serviços</a></li>
 				<li><a href="./contato.php">Contato</a></li>
 			</ul>
 			<div id="responsive-user-options">
@@ -35,8 +35,8 @@
 					<nav id="header-nav">
 						<a href="./">Home</a>
 						<a href="./thinkabit/sobre-nos.php">Think a bit</a>
-						<a href="./portfolio.php">Portfolio</a>
-						<a href="./servicos.php">Serviços</a>
+						<a href="./#portfolio">Portfolio</a>
+						<a href="./#services">Serviços</a>
 						<a href="./contato.php">Contato</a>
 					</nav>
 				</div>
