@@ -7,7 +7,7 @@
 						<div class="col-lg-4 col-sm-12 col-md-5" style="margin-top: 18px;">
 							<nav>
 								<a href="./thinkabit/sobre-nos.php">Sobre nós</a>
-								<a href="./#services">Serviços</a>
+								<a href="./#services" id="services-link">Serviços</a>
 								<a href="./thinkabit/sobre-nos.php#questions">Ajuda</a>
 								<a href="./contato.php">Contato</a>
 							</nav>

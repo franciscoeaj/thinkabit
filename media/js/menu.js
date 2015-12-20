@@ -35,4 +35,27 @@ $(document).ready(function() {
 			$(this).fadeOut(200);
 		}
 	});
+
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.hostname == this.hostname) {
+
+	    	if(location.pathname.replace(/^\//,'') != this.pathname.replace(/^\//,'')) {
+	    		alert("TAPORA");
+
+	    	}
+
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+			
+	    }
+
+	  });
+	});
 });
