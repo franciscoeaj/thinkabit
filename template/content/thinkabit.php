@@ -21,7 +21,7 @@
 												</div>
 												<div class="feature-meta">
 													<h4>Emerson Lucena</h4>
-													<p>Feature description</p>
+													<p hidden>Feature description</p>
 												</div>
 											</div>
 										</div>
@@ -32,7 +32,7 @@
 												</div>
 												<div class="feature-meta">
 													<h4>Francisco Júnior</h4>
-													<p>Feature description</p>
+													<p hidden>Feature description</p>
 												</div>
 											</div>
 										</div>
@@ -43,7 +43,7 @@
 												</div>
 												<div class="feature-meta">
 													<h4>João Maurício</h4>
-													<p>Feature description</p>
+													<p hidden>Feature description</p>
 												</div>
 											</div>
 										</div>
