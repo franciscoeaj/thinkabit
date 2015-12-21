@@ -50,11 +50,12 @@ a:hover, a:active, a:visited, a:link {
 	margin-top: 6em;
 	width: 36%;
 	z-index: 5;
-	padding: 0 0 0.5em 0;
+	/*padding: 0 0 0.5em 0;*/
 	left: -26.2em;
 }
 
 #responsive-user-options {
+	display: none;
 	margin-bottom: 0.35em;
 }
 
@@ -71,6 +72,7 @@ a:hover, a:active, a:visited, a:link {
 
 #responsive-nav ul {
 	list-style: none;
+	margin-bottom: 0 !important;
 }
 
 #responsive-nav ul li {
@@ -218,6 +220,10 @@ header nav a:last-child {
 
 #subpage-nav a:hover {
 	background-color: #003745;
+}
+
+#user-options {
+	display: none;
 }
 
 #user-options ul, #home-nav ul, #main-user-options ul {
@@ -1060,12 +1066,12 @@ footer nav a:last-child {
 		border-bottom: 1px solid #003745;
 	}
 
-	#user-options, #main-user-options{
+	#user-options, #main-user-options {
 		display: none;
 	}
 
 	#responsive-user-options {
-		display: block;
+		display: none;
 	}
 
 	.circular {
