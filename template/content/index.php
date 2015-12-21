@@ -1,5 +1,5 @@
 		<div id="content" class="index-content"> 
-			<section id="first-section">
+			<section id="first-section" class="features-content">
 				<div class="container-fluid">
 					<div class="section-meta">
 						<div class="row">
@@ -68,14 +68,14 @@
 					</div>
 				</div>
 			</section>
-		    <section id="portfolio" class="portfolio-aux">
+		    <section id="portfolio" class="portfolio-content portfolio-aux">
 				<div class="container-fluid">
 					<div class="section-meta">
 						<h2 class="section-title">Portfolio</h2>
 						<h3 class="section-description">Apenas uma pequena prévia dos nossos últimos serviços realizados</h3>
 						<div class="row">
-							<div class="col-sm-12 col-xs-12">
-								<div class="col-lg-2 col-sm-3 col-lg-offset-2">
+							<div class="col-lg-10 col-sm-12 col-xs-12 col-lg-offset-1">
+								<div class="col-sm-3">
 									<div class="portfolio service">
 										<div class="circular">
 											<div id="p-image-1" class="portfolio-image">
@@ -88,7 +88,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-2 col-sm-3">
+								<div class="col-sm-3">
 									<div class="portfolio service">
 										<div class="circular">
 											<div id="p-image-2" class="portfolio-image">
@@ -101,7 +101,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-2 col-sm-3">
+								<div class="col-sm-3">
 									<div class="portfolio service">
 										<div class="circular">
 											<div id="p-image-3" class="portfolio-image">
@@ -115,7 +115,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-lg-2 col-sm-3">
+								<div class="col-sm-3">
 									<div class="portfolio service">
 										<div class="circular">
 											<div id="p-image-4" class="portfolio-image">
