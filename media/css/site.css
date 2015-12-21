@@ -819,7 +819,7 @@ footer nav a:last-child {
 	}
 
 	#web-sites .circular {
-		padding-top: 36px;
+		padding-top: 31px;
 	}
 
 	#web-stores .circular {
@@ -847,7 +847,7 @@ footer nav a:last-child {
 	}
 
 	#visual-identity .service-image, #web-sites .service-image, #web-stores .service-image, #responsivity .service-image, #web-applications .service-image, #content-management .service-image, #email-marketing .service-image, #printed-matter .service-image {
-		background-size: 85px 645px;
+		background-size: 85px 733px;
 	}
 
 	#visual-identity .service-image {
@@ -856,45 +856,45 @@ footer nav a:last-child {
 	}
 
 	#web-sites .service-image {
-		background-position: 0 -86px;
-		width: 85px;
-		height: 71px;
+		background-position: 0 -648px;
+		width: 59px;
+		height: 85px;
 	}
 
 	#web-stores .service-image {
 		background-position: 0 -158px;
 		width: 85px;
-		height: 88px;
+		height: 87px;
 	}
 
 	#responsivity .service-image {
-		background-position: 0 -246px;
+		background-position: 0 -247px;
 		width: 85px;
-		height: 81px;
+		height: 80px;
 	}
 
 	#web-applications .service-image {
-		background-position: 0 -327px;
+		background-position: 0 -328px;
 		width: 85px;
 		height: 85px;
 	}
 
 	#content-management .service-image {
-		background-position: 0 -412px;
+		background-position: 0 -414px;
 		width: 85px;
 		height: 84px;
 	}
 
 	#email-marketing .service-image {
-		background-position: 0 -496px;
+		background-position: 0 -498px;
 		width: 85px;
 		height: 63px;
 	}
 
 	#printed-matter .service-image {
-		background-position: 0 -559px;
+		background-position: 0 -562px;
 		width: 85px;
-		height: 86px;
+		height: 85px;
 	}
 
 	#responsive-nav-trigger {
@@ -974,6 +974,12 @@ footer nav a:last-child {
 		height: 180px !important;
 	}
 
+	.index-content .portfolio-content .circular {
+		margin-bottom: 30px !important;
+	}
+
+	
+
 	.portfolio-meta .more {
 		display: block;
 	}
@@ -992,7 +998,7 @@ footer nav a:last-child {
 	}
 
 	#web-sites .circular {
-		padding-top: 49px;
+		padding-top: 39px;
 	}
 
 	#web-stores .circular {
@@ -1030,9 +1036,9 @@ footer nav a:last-child {
 	}
 
 	#web-sites .service-image {
-		background-position: 0 -110px;
-		width: 108px;
-		height: 92px;
+		background-position: 0 -827px;
+		width: 76px;
+		height: 109px;
 	}
 
 	#web-stores .service-image {
