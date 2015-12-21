@@ -24,6 +24,7 @@
 													<p>Desenvolvedor front-end</p>
 													<p class="social-networks">
 														<a href="http://facebook.com/emersonlucenaGG" target="_blank"><i class="fa fa-facebook facebook"></i></a>
+														<a href="http://twitter.com/emersonllucena" target="_blank"><i class="fa fa-twitter twitter"></i></a>
 														<a href="https://www.linkedin.com/in/emersonllucena" target="_blank"><i class="fa fa-linkedin linkedin"></i></a>
 														<a href="https://github.com/emersonlucena" target="_blank"><i class="fa fa-github github"></i></a>
 														<a href="http://stackoverflow.com/users/5704211/emerson-leonardo-lucena" target="_blank"><i class="fa fa-stack-overflow stackoverflow"></i></a>

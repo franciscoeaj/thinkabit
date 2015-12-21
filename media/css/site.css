@@ -416,37 +416,74 @@ section .socialicon {
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
-	color: #222;
 	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
 	margin: 0 3px;
 }
 
-.social-networks .facebook:hover {
+.contact-content .social-networks {
+	width: 260px;
+	margin: 0 auto;
+}
+
+.contact-content .social-networks p {
+	display: inline-block;
+	text-align: left !important;
+}
+
+.contact-content .social-networks a {
+	color: #fff;
+}
+
+.contact-content .social-networks i {
+	color: #fff;
+	box-shadow: 0 0 0 2px rgb(255, 255, 255);
+	margin-right: 5px;
+}
+
+.contact-content .social-networks .facebook {
+	background-color: #3B5998;
+	padding: 8px 10px;
+}
+
+.contact-content .social-networks .twitter {
+	background-color: #00ACED;
+}
+
+.contact-content .social-networks .instagram {
+	background-color: #35679A;
+	padding: 8px 9px;
+}
+
+.team-content .social-networks i {
+	color: #222;
+}
+
+.team-content .social-networks .facebook:hover {
 	background-color: #3B5998;
 	box-shadow: 0 0 0 2px rgba(59, 89, 152, 0.5);
 	color: #fff;
 }
 
-.social-networks .twitter:hover {
-	background-color: #00ACED !important;
+.team-content .social-networks .twitter:hover {
+	background-color: #00ACED;
 	box-shadow: 0 0 0 2px rgba(0, 172, 237, 0.5);
 	color: #fff;
 }
 
-.social-networks .linkedin:hover {
-	background-color: #0077B5 !important;
+.team-content .social-networks .linkedin:hover {
+	background-color: #0077B5;
 	box-shadow: 0 0 0 2px rgba(0, 119, 181, 0.5);
 	color: #fff;
 }
 
-.social-networks .github:hover {
-	background-color: #171515 !important;
+.team-content .social-networks .github:hover {
+	background-color: #171515;
 	box-shadow: 0 0 0 2px rgba(23, 21, 21, 0.5);
 	color: #fff;
 }
 
-.social-networks .stackoverflow:hover {
-	background-color: #F48024 !important;
+.team-content .social-networks .stackoverflow:hover {
+	background-color: #F48024;
 	box-shadow: 0 0 0 2px rgba(244, 128, 36, 0.5);
 	color: #fff;
 }
@@ -555,49 +592,30 @@ footer nav a:last-child {
 
 #main-contact button, #main-contact input, #main-contact textarea {
 	width: 100%;
+	outline: 0;
 }
 
 #main-contact textarea {
-	height: 5.29em;
+	height: 150px;
 }
 
 #main-contact input, #main-contact textarea, #main-contact button {
 	display: inline-block;
 	border: none;
-	margin: 0.35em 0;
-	padding: 0.35em;
+	margin: 5px 0;
+	padding: 10px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
 }
 
-#main-contact input[name="phone"], #main-contact input[name="location"] {
-	width: 48.4%;
-}
-
-#main-contact input[name="phone"] {
-	margin-right: 0.35em;
-}
-
 #main-contact button {
 	font-size: 16px;
 	background-color: #333;
 	color: #fff;
-	padding: 0.5em;
-	margin: 0.4em 0;
-}
-
-.contact-page section span {
-	float: left;
-	margin: 0.45em 0 0 0.65em;
-	width: 18em;
-	display: block;
-}
-
-.row .socialmedia {
-	width: 21.15em;
-	margin: 0 auto;
+	padding: 10px;
+	margin: 10px 0;
 }
 
 /** Index content CSS **/
