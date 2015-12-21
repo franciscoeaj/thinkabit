@@ -80,9 +80,9 @@
 										<div class="circular">
 											<div id="p-image-1" class="portfolio-image">
 												<div class="portfolio-meta">
-													<p class="type" style="margin-top: -10px;">Painel de <br />gerenciamento</p>
-													<p class="client">freteagora.com</p>
-													<a target="_blank" href="http://www.freteagora.com.br" class="more">+</a>
+													<p class="type">Painel <br />administrativo</p>
+													<p class="client"><a target="_blank" href="http://www.thinkabit.com.br/samples/admin">FreteAgora</a><br /></p>
+													<a target="_blank" href="http://www.thinkabit.com.br/samples/admin" class="more">+</a>
 												</div>
 											</div>
 										</div>
@@ -93,8 +93,8 @@
 										<div class="circular">
 											<div id="p-image-2" class="portfolio-image">
 												<div class="portfolio-meta">
-													<p class="type">Inna Brasil</p>
-													<p  class="client">inna.com.br</p>
+													<p class="type">Desenvolvimento<br />de blog</p>
+													<p class="client"><a target="_blank" href="http://www.inna.com.br">Inna Brasil</a></p>
 													<a target="_blank" href="http://www.inna.com.br" class="more">+</a>
 												</div>
 											</div>
@@ -106,10 +106,9 @@
 										<div class="circular">
 											<div id="p-image-3" class="portfolio-image">
 												<div class="portfolio-meta">
-													<p class="type">Empatech</p>
-													<p class="client">empatech.com.br</p>
+													<p class="type">Desenvolvimento<br />de blog</p>
+													<p class="client"><a target="_blank" href="http://www.empatech.com.br">Empatech</a></p>
 													<a target="_blank" href="http://www.empatech.com.br" class="more">+</a>
-													
 												</div>
 											</div>
 										</div>
@@ -119,10 +118,10 @@
 									<div class="portfolio service">
 										<div class="circular">
 											<div id="p-image-4" class="portfolio-image">
-												<div class="portfolio-meta">
-													<p class="type">Layout</p>
-													<p class="client">Site.com</p>
-													<a class="more">+</a>
+												<div class="portfolio-meta" style="padding-top: 17px">
+													<p class="type">Contate-nos</p>
+													<p class="client">Faremos de tudo para atender o que você precisa com o melhor preço!</p>
+													<a class="more" href="./contato.php">+</a>
 												</div>
 											</div>
 										</div>

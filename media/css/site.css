@@ -632,17 +632,31 @@ footer nav a:last-child {
 	border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
-	padding-top: 24%;
+	padding-top: 40px;
 	font-size: 13px;
 	display: none;
 }
 
 .portfolio-meta p:first-child {
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: bold;
+	padding: 0 10px;
+}
+
+.portfolio-meta p {
+	font-size: 12px;
+	padding: 0 15px;
 }
 
 .portfolio-meta a {
+	color: #fff;
+}
+
+.portfolio-meta a:hover {
+	border-bottom: 1px dotted #fff;
+}
+
+.portfolio-meta .more {
 	background-color: rgba(255, 255, 255, 0.6);
 	font-size: 32px;
 	width: 40px;
@@ -794,6 +808,10 @@ footer nav a:last-child {
 	.index-content .services-content .circular, .index-content .portfolio-content .circular {
 		width: 145px !important;
 		height: 145px !important;
+	}
+
+	.portfolio-meta .more {
+		display: none;
 	}
 
 	#visual-identity .circular {
@@ -951,9 +969,13 @@ footer nav a:last-child {
 		height: 180px !important;
 	}
 
-	.index-content .circular, .portfolio-content .circular {
-		width: 180px;
-		height: 180px;
+	.index-content .circular, .index-content .portfolio-content .circular {
+		width: 180px !important;
+		height: 180px !important;
+	}
+
+	.portfolio-meta .more {
+		display: block;
 	}
 
 	.index-content .section-meta {
