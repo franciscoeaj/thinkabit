@@ -124,7 +124,6 @@ a:hover, a:active, a:visited, a:link {
 header {
 	font-weight: 100;
 	background-color: #00617B;
-	height: 33em;
 	border-bottom: 3px solid rgba(0, 0, 0, 0.35);
 	color: #FFF;
 }
@@ -157,9 +156,8 @@ header nav a:last-child {
 
 #index-header {
 	background-color: #00617B;
-	height: 330px;
 	font-size: 18px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 #page-header, #subpage-header {
@@ -265,8 +263,7 @@ header nav a:last-child {
 	height: 50px;
 	text-indent: -9999px;
 	margin: 0 auto;
-	margin-top: 2.5em;
-
+	margin-top: 1.7em;
 }
 
 #index-header #logo {
@@ -276,7 +273,22 @@ header nav a:last-child {
 }
 
 #index-header h2 {
-	margin-top: 1.5em;
+	margin-top: 1.2em;
+}
+
+#index-header h2:after {
+	background-color: #fff;
+	height: 1px;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: block;
+	width: 300px;
+	content: "";
+}
+
+#index-header h3 {
+	margin-top: 10px;
+	font-weight: lighter;
 }
 
 #index-header h2, #index-header h3 {
@@ -307,7 +319,7 @@ section h2, section h3, section h4, section p {
 
 .section-title {
 	font-size: 28px;
-	margin-top: 0.15em;
+	margin-top: 0;
 	margin-bottom: 0 !important;
 }
 

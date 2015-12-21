@@ -119,7 +119,7 @@
 										<div class="circular">
 											<div id="p-image-4" class="portfolio-image">
 												<div class="portfolio-meta" style="padding-top: 17px">
-													<p class="type">Contate-nos</p>
+													<p class="type"><a href="./contato.php">Contate-nos</a></p>
 													<p class="client">Faremos de tudo para atender o que você precisa com o melhor preço!</p>
 													<a class="more" href="./contato.php">+</a>
 												</div>
