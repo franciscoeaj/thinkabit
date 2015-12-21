@@ -21,7 +21,13 @@
 												</div>
 												<div class="feature-meta">
 													<h4>Emerson Lucena</h4>
-													<p hidden>Feature description</p>
+													<p>Desenvolvedor front-end</p>
+													<p class="social-networks">
+														<a href="http://facebook.com/emersonlucenaGG" target="_blank"><i class="fa fa-facebook facebook"></i></a>
+														<a href="https://www.linkedin.com/in/emersonllucena" target="_blank"><i class="fa fa-linkedin linkedin"></i></a>
+														<a href="https://github.com/emersonlucena" target="_blank"><i class="fa fa-github github"></i></a>
+														<a href="http://stackoverflow.com/users/5704211/emerson-leonardo-lucena" target="_blank"><i class="fa fa-stack-overflow stackoverflow"></i></a>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -32,7 +38,14 @@
 												</div>
 												<div class="feature-meta">
 													<h4>Francisco Júnior</h4>
-													<p hidden>Feature description</p>
+													<p>Desenvolvedor front-end e back-end</p>
+													<p class="social-networks">
+														<a href="http://facebook.com/fb.franciscojr" target="_blank"><i class="fa fa-facebook facebook"></i></a>
+														<a href="http://twitter.com/motioncrazy" target="_blank"><i class="fa fa-twitter twitter"></i></a>
+														<a href="https://br.linkedin.com/in/motioncrazy" target="_blank"><i class="fa fa-linkedin linkedin"></i></a>
+														<a href="https://github.com/motionCrazy/" target="_blank"><i class="fa fa-github github"></i></a>
+														<a href="http://stackoverflow.com/users/3663200/motioncrazy" target="_blank"><i class="fa fa-stack-overflow stackoverflow"></i></a>
+													</p>
 												</div>
 											</div>
 										</div>
@@ -43,7 +56,14 @@
 												</div>
 												<div class="feature-meta">
 													<h4>João Maurício</h4>
-													<p hidden>Feature description</p>
+													<p>Desenvolvedor front-end</p>
+													<p class="social-networks">
+														<a href="https://www.facebook.com/joaomauricio.carvalho" target="_blank"><i class="fa fa-facebook facebook"></i></a>
+														<a href="https://twitter.com/_joao_carvalho" target="_blank"><i class="fa fa-twitter twitter"></i></a>
+														<a href="https://br.linkedin.com/in/joaomauriciocarvalho" target="_blank"><i class="fa fa-linkedin linkedin"></i></a>
+														<a href="https://github.com/joaomcarvalho" target="_blank"><i class="fa fa-github github"></i></a>
+														<a href="http://stackoverflow.com/users/5704192/jo%C3%A3o-maur%C3%ADcio-carvalho" target="_blank"><i class="fa fa-stack-overflow stackoverflow"></i></a>
+													</p>
 												</div>
 											</div>
 										</div>

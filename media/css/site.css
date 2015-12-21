@@ -407,6 +407,50 @@ section .socialicon {
 	left: 5px;
 }
 
+.social-networks i {
+	font-size: 18px;
+	background-color: #eee;
+	width: 32px;
+	height: 32px;
+	padding: 8px;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	color: #222;
+	box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+	margin: 0 3px;
+}
+
+.social-networks .facebook:hover {
+	background-color: #3B5998;
+	box-shadow: 0 0 0 2px rgba(59, 89, 152, 0.5);
+	color: #fff;
+}
+
+.social-networks .twitter:hover {
+	background-color: #00ACED !important;
+	box-shadow: 0 0 0 2px rgba(0, 172, 237, 0.5);
+	color: #fff;
+}
+
+.social-networks .linkedin:hover {
+	background-color: #0077B5 !important;
+	box-shadow: 0 0 0 2px rgba(0, 119, 181, 0.5);
+	color: #fff;
+}
+
+.social-networks .github:hover {
+	background-color: #171515 !important;
+	box-shadow: 0 0 0 2px rgba(23, 21, 21, 0.5);
+	color: #fff;
+}
+
+.social-networks .stackoverflow:hover {
+	background-color: #F48024 !important;
+	box-shadow: 0 0 0 2px rgba(244, 128, 36, 0.5);
+	color: #fff;
+}
+
 #emerson {
 	background: url("../images/team/emerson.png") no-repeat;
 	background-size: contain;
