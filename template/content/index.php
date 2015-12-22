@@ -82,7 +82,7 @@
 												<div class="portfolio-meta">
 													<p class="type">Painel <br />administrativo</p>
 													<p class="client"><a target="_blank" href="http://www.thinkabit.com.br/samples/freteagora-cms">FreteAgora</a><br /></p>
-													<a target="_blank" href="http://www.thinkabit.com.br/samples/admin" class="more">+</a>
+													<a target="_blank" href="http://www.thinkabit.com.br/samples/freteagora-cms" class="more">+</a>
 												</div>
 											</div>
 										</div>
